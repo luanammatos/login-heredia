@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Área do Revendedor - herédia</title>
+        <link rel="shortcut icon" type="image/png" href="public/img/icon.png"  />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="bg-secondary py-5">
+            <div class="container">
+                <div class="bg-white p-5 rounded-3 shadow">
+                    <div class="logo text-center">
+                        <a>
+                            <img src="img/logo.png" />
+                        </a>
+                    </div>
+                    <div>
+                        <div class="text-center mt-3 mb-3 py-3">
+                            <span class="text-success fs-5 fw-bold">
+                                ÁREA DO REVENDEDOR
+                            </span>
+                            <span class="d-block mt-3 fs-6">
+                                Para acessar sua área do revendedor, basta preencher corretamente os dados abaixo:
+                            </span>
+                        </div>
+                        <div class="mb-3 mt-2">
+                            <label class="form-label">Digite seu Código</label>
+                            <label class="form-label float-end text-primary">Herédia ou Mix Lar</label>
+                            <input
+                                type="number"
+                                class="form-control"
+                                name="cod"
+                                maxlength="4"
+                            />
+                            <label class="form-label float-end"><a href="" class="text-primary font-size-12">Esqueceu seu código?</a></label>
+                        </div>
+                        <div class="mb-3 mt-2">
+                            <label class="form-label">Digite seu CPF</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                maxlength="14"
+                            />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Ano de Nascimento</label>
+                            <label class="form-label float-end text-primary">Ex: 1990</label>
+                            <input
+                                type="number"
+                                class="form-control"
+                                name="ano_nascimento"
+                                maxlength="4"
+                            />
+                        </div>
+                        <div class="form-check form-switch mb-3">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Permanecer conectado?</label>
+                            <input 
+                                class="form-check-input" 
+                                type="checkbox" 
+                                role="switch" 
+                                id="flexSwitchCheckDefault"
+                            />
+                        </div>
+                        <div>
+                            <a class="btn btn-lg btn-success w-100 fs-4 py-3">
+                                <b>Enviar</b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
